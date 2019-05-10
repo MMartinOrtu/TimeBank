@@ -1,0 +1,16 @@
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\bin\Debug\BancoDelTiempo.exe.config
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\bin\Debug\BancoDelTiempo.exe
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\bin\Debug\BancoDelTiempo.pdb
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.Properties.Resources.resources
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.exe
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.pdb
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.csproj.CopyComplete
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.Principal.resources
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.ServiceForm.resources
