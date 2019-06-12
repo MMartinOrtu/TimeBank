@@ -56,23 +56,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.cs" />
-    <Compile Include="BancoEntity.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BancoEntity.Context.tt</DependentUpon>
+    <Compile Include="BancoContext.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="MovementForm.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BancoEntity.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BancoEntity.tt</DependentUpon>
-    </Compile>
-    <Compile Include="BancoEntity.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BancoEntity.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Category.cs">
-      <DependentUpon>BancoEntity.tt</DependentUpon>
+    <Compile Include="MovementForm.Designer.cs">
+      <DependentUpon>MovementForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
@@ -83,9 +74,7 @@
     <Compile Include="Movement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service.cs">
-      <DependentUpon>BancoEntity.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Service.cs" />
     <Compile Include="ServiceForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +82,9 @@
       <DependentUpon>ServiceForm.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="MovementForm.resx">
+      <DependentUpon>MovementForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,13 +100,6 @@
     <EmbeddedResource Include="ServiceForm.resx">
       <DependentUpon>ServiceForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EntityDeploy Include="BancoEntity.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>BancoEntity.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="BancoEntity.edmx.diagram">
-      <DependentUpon>BancoEntity.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -131,18 +116,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="BancoEntity.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BancoEntity.edmx</DependentUpon>
-      <LastGenOutput>BancoEntity.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="BancoEntity.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BancoEntity.edmx</DependentUpon>
-      <LastGenOutput>BancoEntity.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\DataSources\" />

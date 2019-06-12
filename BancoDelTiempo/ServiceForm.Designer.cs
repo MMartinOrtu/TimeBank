@@ -198,6 +198,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "ServiceForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crear Servicio";
             this.Load += new System.EventHandler(this.ServiceForm_Load);
             this.ResumeLayout(false);

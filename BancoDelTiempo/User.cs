@@ -8,26 +8,20 @@ namespace BancoDelTiempo
 {
     public class User
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public int Phone { get; set; }
 
-        private int id;
-        private string name;
-        private string address;
-        private string email;
-        private string password;
-        private int phone;
-        private List<Service> services;
+        public virtual ICollection<Service> Services { get; set; }
 
         // Constructor
         public User()
         {
-            services = new List<Service>();
+            Services = new List<Service>();
         }
-        // Métodos
 
-        public string Name { get => name; set => name = value; }
-        public string Address { get => address; set => address = value; }
-        public string Email { get => email; set => email = value; }
-        public string Password { get => password; set => password = value; }
-        public int Phone { get => phone; set => phone = value; }
+
     }
 }

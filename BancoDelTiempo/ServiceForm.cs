@@ -23,29 +23,20 @@ namespace BancoDelTiempo
         }
         private void addService()
         {
-            using (BdTEntities db = new BdTEntities())
+            using (var db = new BancoContext())
             {
-                Service nuevoServicio = new Service()
-                {
-                    name = txtName.Text,
-                    category = Convert.ToInt32(comboBoxCategory.Text),
-                    type = comboBoxType.Text,
-                    description = textDescription.Text,
-                    hours = Convert.ToInt64(txtHours.Text),
-                    schedule = txtSchedule.Text,
-                };
-
+                Service nuevoServicio = new Service();
+                nuevoServicio.addService(txtName.Text, textDescription.Text, Convert.ToInt64(txtHours.Text), txtSchedule.Text, comboBoxType.Text, 1, Convert.ToInt32(comboBoxCategory.Text));
                 db.Services.Add(nuevoServicio);
                 db.SaveChanges();
             }
-
         }
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtName.Text) == true)
+            if (string.IsNullOrEmpty(txtName.Text) == true && string.IsNullOrEmpty(txtHours.Text) == true && string.IsNullOrEmpty(comboBoxType.Text) == true && string.IsNullOrEmpty(comboBoxCategory.Text) == true)
             {
-                MessageBox.Show("Debe rellenar el campo nombre");
+                MessageBox.Show("Debe rellenar los campos que faltan");
             }
             else
             {

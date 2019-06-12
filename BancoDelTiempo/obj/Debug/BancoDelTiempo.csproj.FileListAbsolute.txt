@@ -14,3 +14,4 @@ C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\bin\Debug\EntityFram
 C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.csproj.CopyComplete
 C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.Principal.resources
 C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.ServiceForm.resources
+C:\Users\Usuario\source\repos\BancoDelTiempo\BancoDelTiempo\obj\Debug\BancoDelTiempo.MovementForm.resources
